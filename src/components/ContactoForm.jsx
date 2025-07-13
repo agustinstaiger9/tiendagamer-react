@@ -79,7 +79,7 @@ const ContactoForm = () => {
         Mensaje:
         <textarea
           value={mensaje}
-          onChange={(e) => setMensaje(e.target.value)}
+          onChange={(e) => setMensaje(e.target.value)} 
           placeholder="Escribe tu consulta aquí..."
           required
         />
